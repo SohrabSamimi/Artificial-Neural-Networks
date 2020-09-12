@@ -14,3 +14,6 @@ After that, we train an instance of KNeighborsClassifier
 using those two tests,and we can then perform predicitions: we get a two column matrix, the first
 column will return False at a given row if the prediction of the first test is not correct(that is if the value 
 is under 7) and True if the number is above 7 or equal to 7.
+
+We check that our predictions are correct by comparing KNeighborsClassifier predictions to SVC ones.
+
