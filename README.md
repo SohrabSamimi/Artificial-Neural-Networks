@@ -7,6 +7,7 @@ for each image in the dataset.
 We then make two tests:
 
 1)We test for each image if the value of the digit in this image is above or equal to 7.
+
 2)In a second test,we check if the value is an odd number.
 
 After that, we train an instance of KNeighborsClassifier
